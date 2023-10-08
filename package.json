@@ -1,5 +1,9 @@
 {
   "name": "react-movies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuriy113/react-movies.git"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
