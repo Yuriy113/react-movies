@@ -6,12 +6,12 @@ const Movie = (props) => {
   const { Title: title, Year: year, imdbID: id, Type: type, Poster: poster } = props;
 
   return (
-    <div class="card">
-      <div class="card-image">
+    <div className="card">
+      <div className="card-image">
         <img src={poster} />
-        <span class="card-title">{title}</span>
+        <span className="card-title">{title}</span>
       </div>
-      <div class="card-content">
+      <div className="card-content">
         {year}
         <span className="right">{type}</span>
       </div>
